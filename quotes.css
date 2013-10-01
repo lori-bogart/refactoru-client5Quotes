@@ -1,0 +1,157 @@
+ #container{
+  max-width: 850px;
+  margin: 0 10% 0 30%;
+  background-color: transparent;
+  padding-left: 5px;
+ }
+ .heading{
+   background-color: purple;
+   width: 100%;
+ }
+
+h1{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+
+}
+body{
+  background-color: lavender;
+  font: 20px arial, sans-serif;
+  text-align: center;
+  color: purple;
+ }
+/* top bar add*/
+ #sidebar{ 
+  border-radius: 10px;
+  background-color: purple;
+  float: left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  color: white;
+  min-width: 320px;
+ }
+ #topbar{ 
+  border-radius: 10px;
+  background-color: purple;
+  width: 100%;
+  color: white;
+
+ }
+ #topbar ul{
+   margin: 0 20%;
+ }
+ #topbar ul > li{
+    float: left;
+}   
+
+ul{
+  padding-left: 5px;
+  margin-left: 5px;
+  list-style-type: none;
+  font: 20px arial, sans-serif;
+  color: white;
+}
+
+ li{
+  padding: 5px;
+  color: #663399;
+ }
+/* change name to menu bar */
+#menubar{
+  display: inline-block;
+
+}
+#menubar ol{
+  border-color: purple;
+  list-style: none;
+ 
+ }
+ #menubar ol> li{
+    float: left;
+   
+}
+
+#thankYou{
+  color: purple;
+  background-color: white;
+}
+
+/*debug pop up*/
+#dialogContainer{
+  position: fixed;
+  background-color: purple;
+  color:blue;
+}
+#imagegroup{
+  margin:0 20% 0 30%;
+}
+/*end to css not rwd*/
+
+/*css media querys*/
+/*mobile*/
+@media (max-width:850px) {
+  #sidebar{
+    display: none;
+  }
+   #mainimg{
+    width: 275px;
+    height: 150px;
+  }
+body{
+  font-size: 15px;
+}
+#container{
+  padding: 0 10px;
+}
+#img2{
+  display: block;
+ 
+}
+#img3{
+ display: block;
+}
+}
+/*desktop*/
+@media(min-width: 850px){
+  #topbar{
+    display: none;
+  }
+  #mainimg{
+    width: 550px;
+    height: 300px;
+  }
+ 
+}
+
+.addBorder{
+  border-style:solid;
+}
+
+/*css media querys end */
+
+
+
+
+/**things i I need to accomplish/use- 
+
+ adjust text size depending on screen
+ -->
+ <!-- this i need on my site
+ ul
+ 3 or more pararpahs
+ search bar
+ side bar 
+ subscribe button*/
+ /** set position
+ sidebar absolute w/ ul
+ paragraphs center
+ what i s my padding
+ where can my subscribe button go (upper right) colors and any trasitions/pagination
+ subscribe gives and alert
+
+use grid
+
+ font, wieght, color, pictures*/
